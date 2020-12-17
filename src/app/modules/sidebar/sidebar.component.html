@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+  <img src="https://www.seekpng.com/png/full/396-3960166_english-alphabet-letter-english-alphabet-download-.png">
+</mat-toolbar>
+<mat-nav-list>
+  <a mat-list-item *ngFor="let item of manuList" routerLink="{{item.name}}">
+    <mat-icon class="{{item.icon}}"></mat-icon>
+  </a>
+</mat-nav-list>

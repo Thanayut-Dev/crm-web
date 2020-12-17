@@ -1,0 +1,20 @@
+<div id="login" fxLayout="row" fxLayoutAlign="start">
+  <mat-card>
+    <mat-card-content>
+      <h2>เข้าสู่ระบบในบัญชีของคุณ</h2>
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Email">
+        <mat-icon matSuffix>mail_outline</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="Password">
+        <mat-icon matSuffix>visibility_off</mat-icon>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" (click)="login()">Login</button>
+    </mat-card-content>
+  </mat-card>
+</div>

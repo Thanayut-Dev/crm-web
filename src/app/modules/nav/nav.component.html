@@ -1,0 +1,13 @@
+<mat-sidenav-container class="sidenav-container" *ngIf="hide === true">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport mode="side" opened="true">
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-header></app-header>
+
+    <!-- Add Content Here -->
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<router-outlet *ngIf="hide !== true"></router-outlet>

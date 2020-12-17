@@ -1,0 +1,16 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 80px;
+  background-color: #272626;
+}
+
+.mat-drawer-side {
+  border-right: solid 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+mat-sidenav-content {
+  margin-left: 80px !important;
+}

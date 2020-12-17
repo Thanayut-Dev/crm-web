@@ -1,0 +1,37 @@
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  display: flex;
+  box-sizing: content-box !important;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+
+img {
+  height: 5vh;
+  width: 4vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+mat-nav-list {
+  a {
+    height: 10vh;
+    width: auto;
+
+    mat-icon {
+      font-size: 35px;
+      color: white;
+    }
+  }
+
+}
